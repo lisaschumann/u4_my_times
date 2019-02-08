@@ -1,0 +1,165 @@
+html body {
+    margin: 0;
+}
+    
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 80px;
+    background-color: white;
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+}
+
+.logo span {
+    color: mediumaquamarine;
+}
+
+header nav {
+    padding-right: 40px;
+}
+
+nav span a {
+    color: black;
+}
+
+.content {
+    padding-top: 115px;
+    margin: 0 auto 78px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column {
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+}
+
+.imagetext {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.imagetextmain {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+}
+
+.leadstoryimage {
+    background: url("../images/img-story-main.png");
+    height: 300px;
+    align-items: center;
+}
+
+#secondstory {
+    background: url("../images/img-story-2.png");
+    height: 300px;
+}
+
+#fourthstory {
+    background: url("../images/img-story-1.png");
+    height: 300px;
+}
+
+#thirdstory {
+    background: url("../images/img-story-3.png");
+    height: 300px;
+}
+
+.story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+}
+
+.storyrow {
+    display: flex;
+}
+
+.newsbites h3{
+  font-size: 16px;
+  font-weight: bold;
+    text-align: center;
+}
+
+.newsbites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.title {
+    font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+    padding-right: 25px;
+    border-right: 2px solid white;
+}
