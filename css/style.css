@@ -93,17 +93,17 @@ nav span a {
 }
 
 #secondstory {
-    background-image: url("./images/img-story-2.png");
+    background-image: url("../images/img-story-2.png");
     height: 300px;
 }
 
 #fourthstory {
-    background-image: url("./images/img-story-1.png");
+    background-image: url("../images/img-story-1.png");
     height: 300px;
 }
 
 #thirdstory {
-    background-image: url("./images/img-story-3.png");
+    background-image: url("../images/img-story-3.png");
     height: 300px;
 }
 
